@@ -8,9 +8,9 @@
   "author":
     {
       "name": "Gavin Harris",
-      "picture": "https://www.gravatar.com/avatar/db0da3096de4012a8482db72d561a279",
+      "picture": "https://www.gravatar.com/avatar/db0da3096de4012a8482db72d561a279"
     },
-  "ogImage": { "url": "/assets/blog/colab/logo.png" },
+  "ogImage": { "url": "/assets/blog/colab/logo.png" }
 }
 ---
 

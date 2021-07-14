@@ -12,7 +12,7 @@ function frontMatter(contents: string) {
         content: parts[2] ?? parts[0],
       };
     } catch (err) {
-      console.error(err.message, err.stack);
+      console.error(err.message, err.stack, parts[1]);
       return {};
     }
   }

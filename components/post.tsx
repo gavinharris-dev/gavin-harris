@@ -38,13 +38,13 @@ export const PostComponent = ({
         observer.unobserve(entry.target);
       }
     },
-    [],
+    []
   );
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       intersectionCallback,
-      INTERSECTION_OPTIONS,
+      INTERSECTION_OPTIONS
     );
 
     if (sectionRef.current) {
