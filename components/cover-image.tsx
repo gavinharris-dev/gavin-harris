@@ -18,13 +18,14 @@ const CoverImage = ({ title, src, slug, className }: Props) => {
   );
   return (
     <div className={cn("sm:mx-0", className)}>
-      {slug ? (
+      {image}
+      {/* {slug ? (
         <Link as={`/posts/${slug}`} href='/posts/[slug]'>
           <a aria-label={title}>{image}</a>
         </Link>
       ) : (
         image
-      )}
+      )} */}
     </div>
   );
 };

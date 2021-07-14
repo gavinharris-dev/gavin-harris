@@ -38,13 +38,13 @@ export const PostComponent = ({
         observer.unobserve(entry.target);
       }
     },
-    []
+    [],
   );
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       intersectionCallback,
-      INTERSECTION_OPTIONS
+      INTERSECTION_OPTIONS,
     );
 
     if (sectionRef.current) {
@@ -77,8 +77,7 @@ export const PostComponent = ({
             className='md:w-36 print:hidden mb-1'
           />
           <h3 className='text-xl flex-grow flex'>
-            <Link as={`/posts/${slug}`} href='/posts/[slug]'>
-              <a className='hover:underline flex  flex-col md:flex-row justify-between w-full content-bottom'>
+              <span className='flex flex-col md:flex-row justify-between w-full content-bottom'>
                 <span className='text-left flex justify-center'>{title}</span>
                 <span className='text-right text-sm flex justify-end'>
                   <span style={{ height: "min-content" }}>
@@ -90,8 +89,8 @@ export const PostComponent = ({
                     )}
                   </span>
                 </span>
-              </a>
-            </Link>
+              </span>
+            
           </h3>
         </div>
         <PostBody content={summary} />
