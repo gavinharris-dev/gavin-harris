@@ -14,11 +14,11 @@
 }
 ---
 
-
 September 2006 – January 2008
 EDS for Armed Forces Personnel Administration Agency (AFPAA) - Winchester (UK)
 
 Oracle HRMS / Payroll Applications (11i) Functional Consultant
+
 <ul>
 <li>Delivered several major process reviews from design through testing onto successful implementation</li>
 <li>Implemented high profile payroll solutions involving Payroll Fast Formula, Direct payment and Information Element entries and Balances</li>
@@ -36,6 +36,7 @@ Oracle HRMS / Payroll Applications (11i) Functional Consultant
 
 January 2006 – September 2006
 EDS for UK Defence - Swansea (UK)
+
 <ul>
 <li>Web Designer / Developer (UK Defence)</li>
 <li>Gather customer requirements through face to face meetings and walk through</li>
@@ -56,6 +57,7 @@ May 2002 – August 2004
 EDS – Newcastle (UK)
 
 Developer / PSCS/Incap
+
 <ul>
 <li>Produce Functional and Technical designs from customers requirements</li>
 <li>Develop COBOL code from Technical Designs following local standards</li>
@@ -67,20 +69,21 @@ January 2002 – July 2002
 EDS - Swansea (UK)
 
 Web Developer
+
 <ul>
 <li>Aid in the design of the DVLA Drivers Car Hire Web system</li>
 <li>Developed COM components using Microsoft Visual Basic version 6</li>
 <li>Developed web sites using ASP, XML, XSL and XSLT</li>
 </ul>
 
-November 2000 – January 2002 
+November 2000 – January 2002
 EDS – Swansea (UK)
 
 Info centre Helpdesk (EDS Intranet)
+
 <ul>
 <li>Worked as 2nd line support for EDS UK and EMEA internal Intranet</li>
 <li>Designed and developed web sites for use on the Intranet and Internet</li>
 <li>Point of contact for technical queries</li>
 <li>Developed my understanding of programming, design and quality management concepts (CMM)</li>
 </ul>
-

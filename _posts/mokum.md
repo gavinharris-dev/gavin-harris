@@ -13,6 +13,7 @@
   "ogImage": { "url": "/assets/blog/colab/logo.png" }
 }
 ---
+
 <h1>I.T. Consultant</h1>
 <h2>October 2008 – August 2009 – Department for Work and Pensions – Cabinet Office and Department for Children, Schools and Families (DCSF)</h2>
 <h3>Payroll Implementation</h3>
@@ -27,7 +28,6 @@
 <p>Improve current DWP solutions to make them more re-useable and stable</p>
 <p>Development of SQL Scripts to aid in the documentation process</p>
 <p>Production of Advanced Excel Spreadsheets to aid in the development of Fast Formula and Data Loaders</p>
-
 
 <h1>February 2008 – October 2008 eMbrace Support Consultant</h1>
 <h2>Dunnes Stores</h2>
@@ -57,4 +57,3 @@
 <h2>ITV, Carnival UK and Redcar and Cleveland Borough Council</h2>
 <h3>OTL, iRecruitment and HR/Payroll</h3>
 <p>Used as Functional expert for pre-sales meetings with the above customers.</p>
-
