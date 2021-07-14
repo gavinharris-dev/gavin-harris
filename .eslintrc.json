@@ -19,6 +19,7 @@
   },
   "plugins": ["sort-imports-es6-autofix", "react", "@typescript-eslint"],
   "rules": {
+    "comma-dangle": 2,
     "import/prefer-default-export": 0,
     "jsx-a11y/anchor-is-valid": 0,
     "react/jsx-props-no-spreading": 0,
