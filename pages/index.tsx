@@ -21,6 +21,7 @@ const Index = ({ allPosts }: Props) => (
         <Intro />
         {allPosts.map((post) => (
           <PostComponent
+            index={0}
             key={post.slug}
             title={post.title}
             coverImage={post.coverImage}
@@ -50,6 +51,12 @@ export const getStaticProps = async () => {
   ]);
 
   return {
-    props: { allPosts },
+    props: {
+      allPosts: allPosts.map((post) => ({
+        ...post,
+        summary: markdownToHtml(post.summary),
+        detail: markdownToHtml(post.detail || ""),
+      })),
+    },
   };
 };

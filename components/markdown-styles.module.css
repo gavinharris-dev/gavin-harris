@@ -9,6 +9,10 @@
   @apply my-3;
 }
 
+.markdown ul {
+  @apply mx-8;
+}
+
 .markdown li {
   @apply list-disc list-item;
 }
@@ -23,4 +27,14 @@
 
 .markdown h3 {
   @apply text-lg mb-4 leading-snug;
+}
+
+.markdown a {
+  @apply underline;
+}
+.markdown a:focus {
+  @apply outline-black;
+}
+.markdown a:hover {
+  @apply opacity-70 no-underline;
 }

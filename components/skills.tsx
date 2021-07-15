@@ -8,7 +8,7 @@ export function Skills({ className }: skillsProps) {
       <h1 className='text-xl font-bold leading-tight tracking-tighter'>
         Key Skills
       </h1>
-      <ul className='mt-2'>
+      <ul className='mt-2 mx-8 text-sm'>
         <li className='list-disc'>React / React Native - Typescript</li>
         <li className='list-disc'>NodeJS - Typescript / JavaScript</li>
         <li className='list-disc'>

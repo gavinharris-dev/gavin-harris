@@ -1,8 +1,12 @@
+/* eslint-disable jsx-a11y/no-noninteractive-tabindex */
 import { Skills } from "./skills";
 
 const Intro = () => (
   <>
-    <section className='flex-col lg:flex-row flex items-center md:justify-between mt-16 mb-8 md:mb-12'>
+    <section
+      className='flex-col lg:flex-row flex items-center md:justify-between pt-16 mb-8 md:mb-12'
+      tabIndex={0}
+    >
       <img
         src='https://www.gravatar.com/avatar/db0da3096de4012a8482db72d561a279'
         className='rounded-lg md:w-16 m-4 md:m-10 w-20'
@@ -12,7 +16,7 @@ const Intro = () => (
         Gavin Harris.
       </h1>
       <span>
-        <h4 className='text-center md:text-left text-lg mt-5 md:pl-8'>
+        <h4 className='text-center md:text-left text-lg mt-10 md:pl-8'>
           Technical Lead and Software Architect at Evie Digital since its
           formation in 2019.
         </h4>
@@ -25,7 +29,7 @@ const Intro = () => (
       </span>
     </section>
 
-    <section className='mt-16 mb-8 md:mb-12'>
+    <section className='mt-16 mb-8 md:mb-12' tabIndex={0}>
       <Skills className='mx-8' />
     </section>
   </>

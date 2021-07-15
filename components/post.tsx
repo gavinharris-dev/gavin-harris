@@ -12,6 +12,7 @@ type Props = {
   endDate?: string;
   summary: string;
   slug: string;
+  index: number;
 };
 
 const INTERSECTION_OPTIONS: IntersectionObserverInit = {
@@ -26,6 +27,7 @@ export const PostComponent = ({
   endDate,
   summary,
   slug,
+  index,
 }: Props) => {
   const sectionRef = useRef<HTMLElement>(null);
   const [onScreen, setOnScreen] = useState(false);
@@ -60,6 +62,7 @@ export const PostComponent = ({
 
   return (
     <section
+      tabIndex={index}
       ref={sectionRef}
       className={cn({
         "print:opacity-100": true,
@@ -74,7 +77,7 @@ export const PostComponent = ({
             title={title}
             src={coverImage}
             slug={slug}
-            className='md:w-36 print:hidden mb-1'
+            className='md:w-36 print:hidden mb-1 px-8'
           />
           <h3 className='text-xl flex-grow flex'>
             <span className='flex flex-col md:flex-row justify-between w-full content-bottom'>

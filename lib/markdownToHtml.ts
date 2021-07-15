@@ -1,7 +1,9 @@
-import html from "remark-html";
-import remark from "remark";
+import showdown from "showdown";
 
-export default async function markdownToHtml(markdown: string) {
-  const result = await remark().use(html).process(markdown);
-  return result.toString();
+export default function markdownToHtml(markdown: string) {
+  const converter = new showdown.Converter({
+    simplifiedAutoLink: true,
+  });
+  converter.setFlavor("github");
+  return converter.makeHtml(markdown);
 }
