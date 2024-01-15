@@ -1,5 +1,7 @@
+/* eslint-disable global-require */
 module.exports = {
   purge: ["./components/**/*.tsx", "./pages/**/*.tsx"],
+  plugins: [require("daisyui")],
   theme: {
     extend: {
       colors: {

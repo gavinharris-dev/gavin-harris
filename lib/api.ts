@@ -89,8 +89,11 @@ export function getAllPosts(fields: string[] = []) {
     // sort posts by date in descending order
     .sort((post1, post2) =>
       // eslint-disable-next-line no-nested-ternary
-      post1.startDate === post2.startDate ? 0: 
-      post1.startDate > post2.startDate ? -1 : 1
+      post1.startDate === post2.startDate
+        ? 0
+        : post1.startDate > post2.startDate
+        ? -1
+        : 1
     );
   return posts;
 }
