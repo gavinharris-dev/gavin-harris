@@ -19,19 +19,20 @@ EDS for Armed Forces Personnel Administration Agency (AFPAA) - Winchester (UK)
 
 Oracle HRMS / Payroll Applications (11i) Functional Consultant
 
+<h3>Key Skills and Accomplishments:</h3>
 <ul>
-<li>Delivered several major process reviews from design through testing onto successful implementation</li>
-<li>Implemented high profile payroll solutions involving Payroll Fast Formula, Direct payment and Information Element entries and Balances</li>
-<li>Design and Implementation of new HR and Payroll functionality based on customer requirements </li>
-<li>Creation Functional & Technical Specification documents </li>
-<li>Training and knowledge transfer of current functionality to the Permanent Technical and Application Support (TAS) team and military functional leads</li>
-<li>Creation of testing plans and scripts for custom functionality</li>
-<li>Research of new functionality for HRMS/Payroll extensions including analysis of Oracle legislation patches</li>
-<li>Point of contact for issues arising from the Oracle Application Framework developed Arrivals process, designing fixes to issues and aiding business in data resolutions via Professional Forms</li>
-<li>Point of contact for the EDS Business and Requirements Analyst team providing solution design options for proposed changes</li>
-<li>Liaison with military, EDS management and the technical resources to establish problem resolution and change priorities </li>
-<li>Onsite support for Oracle HRMS/Payroll implementations and steady state system (300,000 employees)</li>
-<li>Point of contact for Oracle HR and Payroll issues</li>
+<li>Successfully delivered several major process reviews, from design to testing and implementation.</li>
+<li>Implemented high-profile payroll solutions utilizing Payroll Fast Formula, Direct Payment, and Information Element entries and Balances.</li>
+<li>Designed and implemented new HR and Payroll functionality based on customer requirements.</li>
+<li>Authored Functional & Technical Specification documents for new projects.</li>
+<li>Provided training and knowledge transfer to the Permanent Technical and Application Support (TAS) team and military functional leads.</li>
+<li>Created testing plans and scripts for custom functionality.</li>
+<li>Researched new functionality for HRMS/Payroll extensions, including analyzing Oracle legislation patches.</li>
+<li>Served as the point of contact for issues arising from the Oracle Application Framework developed Arrivals process and designed fixes to issues and aided business in data resolutions via Professional Forms.</li>
+<li>Worked closely with the EDS Business and Requirements Analyst team, providing solution design options for proposed changes.</li>
+<li>Liaised with military, EDS management, and technical resources to establish problem resolution and change priorities.</li>
+<li>Provided onsite support for Oracle HRMS/Payroll implementations and steady state systems (300,000 employees).</li>
+<li>Served as the point of contact for Oracle HR and Payroll issues.</li>
 </ul>
 
 January 2006 – September 2006
@@ -47,7 +48,7 @@ August 2006 – January 2006
 EDS for Liverpool Victoria LARS Account– Swansea, Bournemouth, Crawley, Redditch and Sunderland (UK)
 <ul>
 <li>Developer / System Administration – LV Lars</li>
-Design/Development of Sun Solaris Unix scripts to aid running of bespoke batch system
+<li>Design/Development of Sun Solaris Unix scripts to aid running of bespoke batch system</li>
 <li>Install and configure UNIX and Windows 2000 software (CICS, Sun Studio One and bespoke applications)</li>
 <li>Develop COBOL applications from Designs</li>
 <li>Administer user access to Windows 2000 Citrix development environments</li>

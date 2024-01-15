@@ -1,11 +1,11 @@
-import { FunctionComponent, ReactNode } from "react";
+import { ReactNode } from "react";
 
 type Props = {
   children?: ReactNode;
 };
 
-const Container: FunctionComponent = ({ children }: Props) => (
-  <div className='container mx-auto px-5'>{children}</div>
+const Container = ({ children }: Props) => (
+  <div className='container mx-auto px-5 h-full'>{children}</div>
 );
 
 export default Container;

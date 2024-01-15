@@ -12,6 +12,16 @@
   "ogImage": { "url": "/assets/blog/evie/evie-logo.png" }
 }
 ---
+# Lead Developer - Plutus Pioneer (3rd Cohort) - Dropspot.io
+
+As Lead Developer on Dropspot.io (DS), a market place for Cardano NFT's (cNFT), Gavin is instrumental in developing the companies knowledge of the technical aspects of the Cardano Blockchain.
+Gavin is a minor contributor to the <a href="https://github.com/Hyperion-BT/helios">Helios API</a> and has developed all Dropspot's Smart Contracts with the Helios DSL.
+
+DETAIL
+
+Development of Junior React Developer - As Team Lead Gavin is mentoring a junior React Developer, this includes code paring via screen share, code and task reviews.
+
+
 # Lead Developer - Loop.Law
 
 Gavin helped develop the Node JS Middleware, Salesforce Integration and Angular web application.

@@ -34,8 +34,7 @@
 
 # Loop.Law
 
-Gavin drove the architectural design of the Loop Law application; he worked very closely with Loop Law client to ensure that the resulting application was not only fit for purpose but was able to scale to fit the clients aspirations. Gavin worked with PEXA to ensure that Loop Law would become the very first law firm to directly integrate with PEXA.
-When it came time to build; Gavin stepped into the Technical Team Lead position, upskilling and managing his technical team to ensure that delivery was always on time and to required quality.
+Gavin led the design and implementation of the Loop Law application, collaborating with the client to meet their needs and future goals. He also made Loop Law the first law firm to integrate with PEXA and served as the Technical Team Lead, ensuring timely and high-quality delivery of the project.
 
 ## Technology
 

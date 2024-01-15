@@ -1,13 +1,13 @@
 @tailwind base;
 
-/* Write your own custom base styles here */
-
 /* Start purging... */
 @tailwind components;
 /* Stop purging. */
 
 /* Write you own custom component styles here */
-
+#nofoundmsg path {
+  stroke-dasharray: 100;
+}
 /* Start purging... */
 @tailwind utilities;
 /* Stop purging. */

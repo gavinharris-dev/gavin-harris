@@ -12,7 +12,6 @@ function frontMatter(contents: string) {
         content: parts[2] ?? parts[0],
       };
     } catch (err) {
-      console.error(err.message, err.stack, parts[1]);
       return {};
     }
   }
@@ -88,6 +87,10 @@ export function getAllPosts(fields: string[] = []) {
   const posts = slugs
     .map((slug) => getPostBySlug(slug, fields))
     // sort posts by date in descending order
-    .sort((post1, post2) => (post1.startDate > post2.startDate ? -1 : 1));
+    .sort((post1, post2) =>
+      // eslint-disable-next-line no-nested-ternary
+      post1.startDate === post2.startDate ? 0: 
+      post1.startDate > post2.startDate ? -1 : 1
+    );
   return posts;
 }

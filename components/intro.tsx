@@ -1,35 +1,34 @@
-/* eslint-disable jsx-a11y/no-noninteractive-tabindex */
 import { Skills } from "./skills";
+import Image from "next/image";
 
 const Intro = () => (
   <>
-    <section
-      className='flex-col lg:flex-row flex items-center md:justify-between pt-16 mb-8 md:mb-12'
-      tabIndex={0}
-    >
-      <img
-        src='https://www.gravatar.com/avatar/db0da3096de4012a8482db72d561a279'
-        className='rounded-lg md:w-16 m-4 md:m-10 w-20'
-        alt='Gavin Harris looking slick'
-      />
-      <h1 className='text-6xl font-bold tracking-tighter leading-tight'>
-        Gavin Harris.
-      </h1>
-      <span>
-        <h4 className='text-center md:text-left text-lg mt-10 md:pl-8'>
-          Technical Lead and Software Architect at Evie Digital since its
-          formation in 2019.
-        </h4>
-        <p className='text-center md:text-left text-md mt-5 md:pl-8'>
-          Key member of the Evie Digital Technical Team; ofterntimes being
-          tasked with taking a project from inception through Proof of Concept
-          and into Production. Gavin then leads the technical development of the
-          product, upskilling fellow team members on the journey.
-        </p>
-      </span>
-    </section>
+    <div className='hero min-h-screen bg-base-200'>
+      <div className='hero-content flex-col lg:flex-row-reverse'>
+        <Image
+          width={333}
+          height={591}
+          src='/assets/img/gav.jpeg'
+          alt='Gavin Harris'
+          className='max-w-sm rounded-lg shadow-2xl'
+        />
+        <div>
+          <h1 className='text-5xl font-bold'>Gavin Harris.</h1>
+          <h4 className='py-6 text-lg'>
+            Technical Lead and Software Developer at Evie Digital since its
+            formation in 2019.
+          </h4>
+          <p className='py-6 text-md'>
+            Gavin is a key member of the Evie Digital Technical Team who is
+            responsible for taking projects from inception to production and
+            leading the technical development of products while also training
+            team members.
+          </p>
+        </div>
+      </div>
+    </div>
 
-    <section className='mt-16 mb-8 md:mb-12' tabIndex={0}>
+    <section className='mt-16 mb-8 md:mb-12'>
       <Skills className='mx-8' />
     </section>
   </>

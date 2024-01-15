@@ -12,28 +12,26 @@ type Props = {
 };
 
 const Index = ({ allPosts }: Props) => (
-  <>
-    <Layout>
-      <Head>
-        <title>Gavin Harris</title>
-      </Head>
-      <Container>
-        <Intro />
-        {allPosts.map((post) => (
-          <PostComponent
-            index={0}
-            key={post.slug}
-            title={post.title}
-            coverImage={post.coverImage}
-            startDate={post.startDate}
-            endDate={post.endDate}
-            summary={post.summary}
-            slug={post.slug}
-          />
-        ))}
-      </Container>
-    </Layout>
-  </>
+  <Layout>
+    <Head>
+      <title>Gavin Harris</title>
+    </Head>
+    <Container>
+      <Intro />
+      {allPosts.map((post) => (
+        <PostComponent
+          index={0}
+          key={post.slug}
+          title={post.title}
+          coverImage={post.coverImage}
+          startDate={post.startDate}
+          endDate={post.endDate}
+          summary={post.summary}
+          slug={post.slug}
+        />
+      ))}
+    </Container>
+  </Layout>
 );
 
 export default Index;

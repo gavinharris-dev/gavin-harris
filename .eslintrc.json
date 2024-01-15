@@ -44,7 +44,8 @@
     ],
     "react/react-in-jsx-scope": 0,
     "import/extensions": 0,
-    "react/jsx-filename-extension": [1, { "extensions": [".jsx", ".tsx"] }]
+    "react/jsx-filename-extension": [1, { "extensions": [".jsx", ".tsx"] }],
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }]
   },
   "settings": {
     "import/resolver": {
