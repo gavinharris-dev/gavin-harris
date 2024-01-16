@@ -3,6 +3,8 @@
   "title": "Colab Consulting - Technical Consultant, Technical Team Lead and Solutions Architect",
   "excerpt": "Lead Developer, technical trailblazer, Oracle HT/Payroll Technical Consultant",
   "coverImage": "/assets/blog/colab/logo.png",
+  "coverImgWidth": "200",
+  "coverImgHeight": "37",
   "startDate": "2011-01-01T00:00:00.000Z",
   "endDate": "2021-01-01T00:00:00.000Z",
   "author":

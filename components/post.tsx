@@ -1,7 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import CoverImage from "./cover-image";
 import DateFormatter from "./date-formatter";
-import Link from "next/link";
 import PostBody from "./post-body";
 import cn from "classnames";
 
@@ -11,7 +10,6 @@ type Props = {
   startDate: string;
   endDate?: string;
   summary: string;
-  slug: string;
   index: number;
 };
 
@@ -26,7 +24,6 @@ export const PostComponent = ({
   startDate,
   endDate,
   summary,
-  slug,
   index,
 }: Props) => {
   const sectionRef = useRef<HTMLElement>(null);
@@ -69,16 +66,12 @@ export const PostComponent = ({
         "border-b-2": true,
         "opacity-0": !onScreen,
         "fade-in": onScreen,
+        prose: true,
       })}
     >
       <div className='flex flex-col mb-8 mt-4'>
-        <div className='flex flex-col md:flex-row justify-start w-full mb-4 items-center'>
-          <CoverImage
-            title={title}
-            src={coverImage}
-            slug={slug}
-            className='md:w-36 print:hidden mb-1 px-8'
-          />
+        <div className='flex flex-col md:flex-row justify-start mb-4 items-center mx-4 lg:ml-8 gap-3'>
+          <CoverImage title={title} src={coverImage} />
           <h3 className='text-xl flex-grow flex'>
             <span className='flex flex-col md:flex-row justify-between w-full content-bottom'>
               <span className='text-left flex justify-center'>{title}</span>

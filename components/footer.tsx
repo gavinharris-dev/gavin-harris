@@ -1,7 +1,7 @@
 import Container from "./container";
 
 const Footer = () => (
-  <footer className='bg-accent-1 border-t border-accent-2 dark:bg-gray-800 dark:text-white'>
+  <footer className='bg-accent-100 border-t border-accent-200'>
     <Container>
       <div className='py-10 flex flex-col lg:flex-row items-center print:hidden'>
         <h3 className='text-lg font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2 flex-grow'>

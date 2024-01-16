@@ -8,7 +8,7 @@ type Props = {
 const Layout = ({ children }: Props) => (
   <>
     <Meta />
-    <div className='dark min-h-screen dark:bg-gray-800 dark:text-gray-50'>
+    <div className=' min-h-screen '>
       <div className='min-h-screen max-w-screen-lg m-auto'>
         <main>{children}</main>
       </div>

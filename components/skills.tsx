@@ -1,88 +1,92 @@
 type SkillItemProps = {
   title: string;
-  backgroundColor: string;
+  lastUsed: string;
 };
-const SkillItem = ({ title, backgroundColor }: SkillItemProps) => (
-  <div
-    className='border-2 shadow-lg rounded-full py-1 px-3 m-1 border-transparent dark:text-black'
-    style={{ backgroundColor }}
-  >
-    {title}
-  </div>
+const SkillItem = ({ title }: SkillItemProps) => (
+  <li className='list-item'>{title}</li>
 );
 
-export interface skillsProps {
-  className?: string;
-}
-
-const COLOR_KEY: { [label: string]: string } = {
-  recent: "silver",
-  not_recent: "lime",
-};
 const SKILL_ARRAY: SkillItemProps[] = [
   {
     title: "React / React Native - Typescript",
-    backgroundColor: COLOR_KEY.recent,
+    lastUsed: "Current",
+  },
+  {
+    title: "SQL - Oracle DB and PostgreSql",
+    lastUsed: "Current",
   },
   {
     title: "NodeJS - Typescript / JavaScript",
-    backgroundColor: COLOR_KEY.recent,
+    lastUsed: "Current",
   },
   {
     title:
       "Google Firebase - Functions, Firestore (Documents / Rules), Authentication",
-    backgroundColor: COLOR_KEY.recent,
+    lastUsed: "Current",
   },
   {
     title:
       "AWS - ECS, Lambda, ElasticBeanstalk, EC2, RDS, VPC (inc. Endpoint Services), SNS, CloudWatch Logs, S3, Route53",
-    backgroundColor: COLOR_KEY.recent,
+    lastUsed: "Current",
   },
   {
     title: "Heroku - Dyno configuration, PostgreSql, Heroku Connect",
-    backgroundColor: COLOR_KEY.not_recent,
+    lastUsed: "> 2 years ago",
   },
   {
     title:
       "Salesforce - sObject configuration, APEX Classes, Flows and Process Builder, Lightening Components",
-    backgroundColor: COLOR_KEY.not_recent,
+    lastUsed: "> 2 years ago",
   },
   {
     title:
       "Auth0 - Custom Social Authenticator, Custom Login Pages, Rules Configuration",
-    backgroundColor: COLOR_KEY.not_recent,
+    lastUsed: "> 2 years ago",
   },
   {
     title: "Oracle ADF Development (Java) - Web UI and Rest Services",
-    backgroundColor: COLOR_KEY.not_recent,
+    lastUsed: "> 5 years ago",
   },
   {
     title: "Oracle PL/SQL for Fast Formula function development",
-    backgroundColor: COLOR_KEY.not_recent,
+    lastUsed: "> 5 years ago",
   },
   {
     title:
       "Oracle PL/SQL iRepository - Development and Annotation of PL/SQL Packages",
-    backgroundColor: COLOR_KEY.not_recent,
+    lastUsed: "Current",
   },
   {
     title:
       "Oracle EBS Core Payroll - Elements, Data Structures (Payroll Tables, Global Values), Payroll",
-    backgroundColor: COLOR_KEY.not_recent,
+    lastUsed: "> 5 years ago",
   },
 ];
 
-export function Skills({ className }: skillsProps) {
+export function Skills() {
   return (
-    <div className={className}>
-      <h1 className='text-xl font-bold leading-tight tracking-tighter'>
-        Key Skills
-      </h1>
+    <div className='prose mx-4'>
+      <h1>Skills</h1>
 
-      <div className='flex flex-wrap'>
-        {SKILL_ARRAY.map((skill) => (
+      <ul className='list-outside'>
+        {SKILL_ARRAY.filter((s) => s.lastUsed === "Current").map((skill) => (
           <SkillItem key={skill.title} {...skill} />
         ))}
+      </ul>
+      <div className='collapse bg-base-200'>
+        <input type='checkbox' />
+        <div className='collapse-title text-lg font-light'>
+          Show skills used in prior years
+        </div>
+        <div className='collapse-content'>
+          <ul className='list-outside'>
+            {SKILL_ARRAY.filter((s) => s.lastUsed !== "Current").map(
+              (skill) => (
+                <SkillItem key={skill.title} {...skill} />
+              )
+            )}
+          </ul>
+        </div>
       </div>
     </div>
   );

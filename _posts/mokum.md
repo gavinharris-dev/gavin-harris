@@ -3,6 +3,7 @@
   "title": "Mokum Change Management - HR/Payroll Support Consultant",
   "excerpt": "Oracle HT/Payroll Support",
   "coverImage": "/assets/blog/mokum/mokum.png",
+  "coverImgScale": "2.0",
   "startDate": "2008-02-01T00:00:00.000Z",
   "endDate": "2010-07-01T00:00:00.000Z",
   "author":

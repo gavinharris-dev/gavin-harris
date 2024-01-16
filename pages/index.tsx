@@ -27,7 +27,6 @@ const Index = ({ allPosts }: Props) => (
           startDate={post.startDate}
           endDate={post.endDate}
           summary={post.summary}
-          slug={post.slug}
         />
       ))}
     </Container>

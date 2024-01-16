@@ -1,8 +1,10 @@
 ---
 {
-  "title": "Electronic Data Systems - Thing",
+  "title": "Electronic Data Systems - Information Analyst",
   "excerpt": "Oracle HT/Payroll Support",
   "coverImage": "/assets/blog/eds/eds.png",
+  "coverImgWidth": "350",
+  "coverImgHeight": "205",
   "startDate": "2000-11-01T00:00:00.000Z",
   "endDate": "2008-01-01T00:00:00.000Z",
   "author":
